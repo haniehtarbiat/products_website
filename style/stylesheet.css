@@ -1,4 +1,5 @@
-    @import 'common.css';
+   @import 'normalize.css';
+   @import 'common.css';
     @import 'header.css';
     @import'products.css';
     @import'explanation.css';

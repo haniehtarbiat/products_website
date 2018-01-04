@@ -1,141 +1,98 @@
-.conntact_us{
-    box-sizing: border-box;
-    display: inline-block;
-    width: 60%;
-    height: 35em;
-   background-color: rgba(36, 40, 67, 1);
-    font-size: 0.7em;
-    font-family: Arial, Helvetica, sans-serif;
+*{
+    margin:0;
+    padding: 0;
+}
+.conntact_us {
+ background-color: rgba(36, 40, 67, 1);
+ height: 25rem;
+ font-size: 0.75em;
+ box-sizing: border-box;
 }
 
-.conntact_us form {
-    box-sizing: border-box;
+.conntact_us .form {
+    width: 60%;
+    height: 25rem;
     display: inline-block;
-    width: 100%;
-    height: 35em;
     border-bottom: 1px solid #5B5A5A;
     border-right: 1px solid #5B5A5A;
-    padding-left: 7em;
+    padding: 3.3rem; 
 }
-.conntact_us .name{
+.conntact_us .form .name{
     display: inline-block;
-    margin-top:3em;
-    margin-bottom:3em;
-    margin-right: 3em; 
 }
-.conntact_us .email{
+.conntact_us .form .email{
     display: inline-block;
-    margin-top:3em;
-    margin-bottom:3em;
-    margin-left:3em;
 }
-.conntact_us form textarea{
-    box-sizing: border-box;
-    display: inline-block;
-    margin-top: 1em;
-    background-color: #2b2f4a ;
-    border:1px solid #2b2f4a;
-}
-.conntact_us .name input{
-    display: inline-block;
-    box-sizing: border-box;
-    height: 2.5em;
-    background-color: #2b2f4a;
-    margin-top: 1em;
-    border:1px solid #2b2f4a;
+.conntact_us  .form  input{
+    height: 2rem;
     width: 19.5em;
-  }
-.conntact_us .email input{
-    display: inline-block;
-    box-sizing: border-box;
-    height: 2.5em;
     background-color: #2b2f4a;
-    margin-top: 1em;
     border:1px solid #2b2f4a;
-    width: 19.2em;
+    margin-bottom: 2rem;
+    margin-right: 3rem;
+  }
+
+.conntact_us  textarea{
+    width: 80%;
+    height: 10rem;
+    /* prevent to user manually resize text area 👇 */
+    resize: none;
+    margin-bottom: 2rem;
+    background-color: #2b2f4a;
+    border:1px solid #2b2f4a;
 }
 .conntact_us .send_button{
     display: inline-block;
-    width:15%;
-    margin-right: 2em;
 }
 .conntact_us .reset_button{
     display: inline-block;
-    width: 10%;
 }
-.conntact_us .send_button  input{
-    display: inline-block;
+.conntact_us .send_button input{
+    width: 10rem;
     background-color: white;
-    height: 2.5em;
-    width: 100%;
-    color: black;
-    font-size: 0.7rem;
-    margin-top: 1.5em;
-    border:1px solid white;
-    
 }
-.conntact_us .reset_button  input{
-    display: inline-block;
-    width: 100%;
-    height: 2.5em;
-    background-color: #2b2f4a; 
-    font-size: 0.7rem;
-    margin-top: 1.5em;
-    border:1px solid white;
+.conntact_us .reset_button input{
+    width: 6rem;
+    color: white;
+    margin-left: -2rem;
 }
- .about_us {
-    box-sizing: border-box;
-    display: inline-block;
-    width:40% ;
-    height:35em;
-    background-color: rgba(36, 40, 67, 1);
-    font-size: 0.7em;
-    font-family: Arial, Helvetica, sans-serif;
- }
- 
- .about_us ul{
-    box-sizing: border-box;
-    display: inline-block;
-    width: 100%;
-    border:1px solid red;
-    list-style-type: none;
-    padding: 0;
+.conntact_us .about_us {
+    width: 39.5%;
+    height: 25rem;
+    display: inline-block;  
     margin: 0;
- }
- .about_us  li{
-     display: inline-block;
-     box-sizing: border-box;
-     width: 100%;
-     height: 11.64em;
-     border-bottom: 1px solid #5B5A5A;  
- }
-.about_us .fa{
-    font-size: 1em;
-    display: inline;
-    padding-left:2em;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conntact_us .about_us .fa{
+    font-size: 1rem;
+    display: inline_block;
+    padding-left:2rem;
     margin:0;
 }
-.about_us h3{
-    box-sizing: border-box;
+ .conntact_us .about_us  div{
+     display: inline-block;
+     width: 100%;
+     height: 8.33rem;
+     border-bottom: 1px solid #5B5A5A; 
+     padding-top: 2rem; 
+ }
+ .conntact_us .about_us h3{
     display: inline-block;
-    padding-bottom: 0.36em;
-    width:7em;
-    padding-left: 1em;
+    padding-bottom: 0.36rem;
+    width:7rem;
+    padding-left: 1rem;
 }
- .about_us p{
-  box-sizing: border-box;
-  font-size: 0.7em;
-  padding-left: 6em;
+ .conntact_us .about_us p{
+  font-size: 0.7rem;
+  padding-left: 4rem;
 }
+
 @media screen and (max-width: 768px) {
-    .conntact_us form {
+    .conntact_us .form ,
+    .conntact_us .about_us{
         width: 100%;
         height: auto;
-    }
-    .conntact_us .information_about_us {
-        width: 100%;
-        height: auto;
+        background-color:rgba(36, 40, 67, 1); 
     }
 }
-
-

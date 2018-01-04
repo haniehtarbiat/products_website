@@ -24,10 +24,12 @@
     font-size: 0.7em;
     margin-left: 7.200em;
     margin-top:1.680em;
+    color: white;
   }
   .section-2 button a {
     text-align: center;
     text-decoration: none;
+    color: white;
   }
   .section-2 .fa {
     font-size: 1em;
